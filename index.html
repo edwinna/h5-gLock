@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+          name="viewport"/>
+    <title>h5手势解锁</title>
+</head>
+<body>
+    <canvas id="glock"></canvas>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="src/js/gLock.js"></script>
+    <script>
+        window.onload = function(){
+            gLock({
+                lockId: 'glock',
+                CH: 400 //画布的高度
+            });
+        }
+    </script>
+</body>
+</html>
